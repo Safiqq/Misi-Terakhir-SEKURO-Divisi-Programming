@@ -44,8 +44,9 @@ void gameOver() {
 	cout << "--------------------------" << endl;
 	cout << "-------- Game Over -------" << endl;
 	cout << "--------------------------" << endl << endl;
-	cout << "Press any key to go back to main menu";
+	cout << "Press any key to go back to exit";
 	button = getch();
+    exit(0);
 }
 
 void randomMechaKuramaPosition(int size) {
@@ -69,10 +70,10 @@ void plot(int size, int rPosition[2], int kPosition[2]) {
     if(attacked) { cout << "(-" << k.power << ")"; }
     cout << " HP; " << r.power << " damage; " << r.range << " attack range" << endl;
     cout << "Robot's coordinate (" << rPosition[0] << "," << rPosition[1] << ")" << endl << endl;
-    cout << "Mecha Kurama statuses (" << k.bunshinNumber << "): " << k.health;
+    cout << "Mecha Kurama (" << k.bunshinNumber << ") statuses: " << k.health;
     if(attacking && kill == false) { cout << "(-" << r.power << ")"; }
     cout << " HP; " << k.power << " damage; " << k.range << " attack range" << endl;
-    cout << "Mecha Kurama's coordinate (" << kPosition[0] << "," << kPosition[1] << ")" << endl << endl;
+    cout << "Mecha Kurama (" << k.bunshinNumber << ")'s coordinate (" << kPosition[0] << "," << kPosition[1] << ")" << endl << endl;
     cout << "The distance between Robot and Mecha Kurama is " << distance << " unit" << endl;
 
     for(i = size-1; i >= 0; i--) {
@@ -242,7 +243,7 @@ int main() {
         } else if(button == 50) {       //2
             system("cls");
             instructions();
-        } else if(button == 27) {   //ESC
+        } else if(button == 27) {       //ESC
             exit(0);
         }
     } while(1);
