@@ -44,9 +44,8 @@ void gameOver() {
 	cout << "--------------------------" << endl;
 	cout << "-------- Game Over -------" << endl;
 	cout << "--------------------------" << endl << endl;
-	cout << "Press any key to go back to exit";
+	cout << "Press any key to go back to main menu";
 	button = getch();
-    exit(0);
 }
 
 void randomMechaKuramaPosition(int size) {
@@ -243,6 +242,8 @@ int main() {
         } else if(button == 50) {       //2
             system("cls");
             instructions();
+        } else if(button == 27) {   //ESC
+            exit(0);
         }
     } while(1);
     
