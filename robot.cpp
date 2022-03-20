@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 #include <conio.h>
-#include <windows.h>
-#include "axis.h"
 #include "robot.hpp"
-#include <iostream>
 
 using namespace std;
 
