@@ -1,13 +1,19 @@
 # Misi-Terakhir-SEKURO-Divisi-Programming
-Kelompok: 5
-Anggota: Syafiq Ziyadul Arifin        (16521432)
-         Dean Hartono                 (16021056)
-         Hanny Margaretha Aritonang   (16021381)
-         Mohammad Farhan Fahrezy      (16521364)
-Link Github: https://github.com/Safiqq/Misi-Terakhir-SEKURO-Divisi-Programming/
+## Kelompok 5
+## Anggota:
+### 16521432 - Syafiq Ziyadul Arifin
+### 16021056 - Dean Hartono
+### 16021381 - Hanny Margaretha Aritonang
+### 16521364 - Mohammad Farhan Fahrezy
+
+<p>&nbsp;</p>
+
+## Link Github: https://github.com/Safiqq/Misi-Terakhir-SEKURO-Divisi-Programming/
+
+<p>&nbsp;</p>
 
 ## Cara Menjalankan Program
-**Start Game**
+### **Start Game**
 1. Masukkan ukuran battlefield [8, 16].
 2. Atribut health awal Robot dan Mecha Kurama adalah 100.
 3. Atribut health Mecha Kurama akan berkurang 5 ketika diserang Robot.
