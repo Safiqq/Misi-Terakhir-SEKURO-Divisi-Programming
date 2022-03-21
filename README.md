@@ -1,4 +1,6 @@
 # Misi-Terakhir-SEKURO-Divisi-Programming
+Tugas terakhir SEKURO
+
 ## Kelompok 5
 ## Anggota:
 ### 16521432 - Syafiq Ziyadul Arifin
