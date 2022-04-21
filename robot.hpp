@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <cstdio>
-#include "axis.h"
 
 using namespace std;
 
